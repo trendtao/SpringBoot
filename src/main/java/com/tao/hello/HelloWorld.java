@@ -15,9 +15,15 @@ public class HelloWorld {
 	@RequestMapping("hello")
 	@ResponseBody
 	public String hello() {
-		return "hello2";
+		return "heeello2";
 	}
 	
+	
+	@RequestMapping("hello2")
+	@ResponseBody
+	public String hello2() {
+		return "heeello2";
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorld.class, args);
