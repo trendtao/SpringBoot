@@ -19,7 +19,7 @@ public class HelloWorld {
 	}
 	
 	
-	@RequestMapping("hello2")
+	@RequestMapping("hello4")
 	@ResponseBody
 	public String hello2() {
 		return "heeello2";
